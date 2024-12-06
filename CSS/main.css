@@ -1,0 +1,38 @@
+body,
+.container {
+  background-color: #24353f;
+}
+h1 {
+  color: #17a2b4;
+}
+.button {
+  border-color: #17a2b4;
+  color: #17a2b4;
+  transition: all 0.5s;
+}
+.button:hover {
+  color: white;
+  background-color: #17a2b4;
+}
+.container {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.home-page {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+}
+#successfulmsg {
+  font-size: 1.5rem;
+  display: block;
+  margin-top: 20px;
+}
+.form-container {
+  display: none;
+}
+.form-container.active {
+  display: block;
+}
+.test{
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
